@@ -1,0 +1,115 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+.container header {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.container input {
+  height: 50px;
+  width: 90%;
+  padding: 0 15px;
+  font-size: 17px;
+  margin-bottom: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.image {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container input[type='file'] {
+  height: auto;
+  padding: 0;
+  margin-bottom: 1.3rem;
+  border: none;
+  
+}
+
+.container input[type='file']::-webkit-file-upload-button {
+  background: #009579;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-right: 20px;
+}
+
+.container input[type='file']::-webkit-file-upload-button:hover {
+  background: #006653;
+}
+
+.container .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+.container .button {
+  color: #fff;
+  background: #009579;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.container .button:hover {
+  background: #006653;
+}
+
+.signup {
+  font-size: 17px;
+  text-align: center;
+}
+
+.signup-text {
+  color: #000;
+}
+
+.signup-text a {
+  color: #009579;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

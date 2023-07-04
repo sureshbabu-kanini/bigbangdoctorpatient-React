@@ -1,0 +1,84 @@
+/* Doctorcard.css */
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+  
+  .doctor-card {
+    width: 300px;
+    background: linear-gradient(45deg, #f2f2f2, #333333);
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .doctor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .doctor-card .doc-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align top */
+    margin-top: 1rem;
+    height: 200px; /* Specify height to restrict image size */
+    overflow: hidden;
+  }
+  
+  .doctor-card .docimg {
+    width: 100%;
+    object-fit: cover;
+    object-position: top; /* Display top part of the image */
+  }
+  
+  .doctor-card .doc-details {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .doctor-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .doctor-card span {
+    font-size: 1rem;
+  }
+  
+  .doctor-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #6895c6;
+  }
+  
+  .button-container button:first-child {
+    margin-right: 8px;
+  }
+  
+  
+  

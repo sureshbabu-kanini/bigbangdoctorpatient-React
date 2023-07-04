@@ -1,0 +1,126 @@
+@import url('https://static.vecteezy.com/system/resources/previews/005/307/230/original/healthcare-and-medicine-concept-smart-medical-doctor-working-with-stethoscope-at-modern-hospital-free-photo.jpg');
+
+.login-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  
+}
+
+.login-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.login-image img {
+  max-width: 100%;
+  height: 550px;
+}
+
+.login-form-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.container {
+  max-width: 430px;
+  width: 90%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .registration {
+  display: none;
+}
+
+#check:checked ~ .registration {
+  display: block;
+}
+
+#check:checked ~ .login {
+  display: none;
+}
+
+.container .form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form input {
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  margin-bottom: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.form input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.form input.button {
+  color: #fff;
+  background: #009579;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.form input.button:hover {
+  background: #006653;
+}
+
+.signup {
+  font-size: 17px;
+  text-align: center;
+}
+
+.signup label {
+  color: #009579;
+  cursor: pointer;
+}
+
+.signup label:hover {
+  text-decoration: underline;
+}

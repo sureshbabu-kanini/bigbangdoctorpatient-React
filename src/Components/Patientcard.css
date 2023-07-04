@@ -1,0 +1,88 @@
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+  
+  .patient-card {
+    width: 300px;
+    background: linear-gradient(45deg, #f2f2f2, #333333);
+    transition: all 0.4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    margin: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .patient-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .patient-card .patient-details {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .patient-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patient-card span {
+    font-size: 1rem;
+  }
+  
+  .patient-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .patient-card input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .patient-card .patient-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .patient-card button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .patient-card .patient-save-btn {
+    background-color: #27a744;
+    color: white;
+  }
+  
+  .patient-card .patient-cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .patient-card .patient-edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .patient-card .patient-delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
