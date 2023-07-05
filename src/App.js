@@ -16,6 +16,9 @@ import RequestApproval from './Components/RequestApproval';
 import DoctorList from './Components/DoctorList';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AllNavbar from './Components/AllNavbar';
+import DoctorUpdate from './Components/DoctorUpdate';
+import DoctorViewPatient from './Components/DoctorViewPatient';
 
 
 function App() {
@@ -38,6 +41,8 @@ function App() {
         <Route path="/Cards" element={<DoctorList />} />
         <Route path="/Navbar" element={<Navbar/>} />
         <Route path="/request" element={<RequestApproval/>} />
+        <Route path="/DoctorUpdate" element={<DoctorUpdate/>} />
+        <Route path="/DoctorView" element={<DoctorViewPatient/>} />
       </Routes>
     </BrowserRouter>
   );

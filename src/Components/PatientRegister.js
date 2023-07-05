@@ -79,7 +79,7 @@ export default function PatientRegister() {
 
   return (
     <center>
-      <div className="registration-form">
+      <div className="registration-form" style={{ marginTop: '160px' }}>
         <header className="form-header">Patient Signup</header>
         <form onSubmit={handleSubmit}>
           {/* Form fields */}

@@ -16,6 +16,7 @@
 
 .container .registration {
   display: none;
+
 }
 
 #check:checked ~ .registration {
