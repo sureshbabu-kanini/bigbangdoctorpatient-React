@@ -75,12 +75,12 @@ export default function PatientViewDoctor() {
             <br />
             {doctor.doctor_Id === activeCard && (
               <div className="button-container">
-                <button
+                {/* <button
                   className="appointment-btn"
                   onClick={() => bookAppointment(doctor.doctor_Id)}
                 >
                   Book an Appointment
-                </button>
+                </button> */}
               </div>
             )}
           </div>

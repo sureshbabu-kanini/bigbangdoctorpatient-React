@@ -11,6 +11,7 @@
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  
 }
 
 .container .registration {
@@ -26,7 +27,7 @@
 }
 
 .container .form {
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .form header {

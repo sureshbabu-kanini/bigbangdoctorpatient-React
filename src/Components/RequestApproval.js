@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './RequestApproval.css';
 
 const AdminDoctorRequests = () => {
@@ -23,6 +25,7 @@ const AdminDoctorRequests = () => {
       await axios.post(`https://localhost:7114/api/Admins/ApproveDoctorRequest/${id}`);
       // Refresh the doctor requests list
       fetchDoctorRequests();
+      toast.success('Doctor Approved successfully');
     } catch (error) {
       console.error('Error approving doctor request:', error);
     }
@@ -41,11 +44,14 @@ const AdminDoctorRequests = () => {
               <p>Specialization: {doctor.specialization}</p>
               <p>Email: {doctor.doctor_Email}</p>
               <p>Status: {doctor.status}</p>
-              <button className="approve-button" onClick={() => approveDoctorRequest(doctor.doctor_Id)}>Approve</button>
+              <button className="approve-button" onClick={() => approveDoctorRequest(doctor.doctor_Id)}>
+                Approve
+              </button>
             </div>
           ))}
         </div>
       )}
+      <ToastContainer /> {/* Place this component at the root of your app */}
     </div>
   );
 };

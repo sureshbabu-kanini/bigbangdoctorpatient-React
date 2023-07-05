@@ -47,6 +47,7 @@ export default function DoctorRegister() {
       .then((response) => {
         console.log('Successfully registered:', response.data);
         toast.success('Registered successfully!');
+        navigate('/login');
       })
       .catch((error) => {
         console.error('Error registering:', error);

@@ -47,7 +47,7 @@ const AdminLogin = () => {
   return (
     <div>
       <div className="container">
-        <div className="form login">
+        <div className="form-login">
           <header>Admin Login</header>
           <form>
             <input

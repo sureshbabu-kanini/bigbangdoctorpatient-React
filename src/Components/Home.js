@@ -6,6 +6,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div id="cards_landscape_wrap-2">
+      <center><h1></h1></center>
         <div className="row">
           <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <Link to="/Admin">
